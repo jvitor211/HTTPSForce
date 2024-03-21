@@ -1,0 +1,27 @@
+{
+  "manifest_version": 3,
+  "name": "Forçar HTTPS",
+  "version": "1.0",
+  "description": "Redireciona automaticamente as páginas para usar HTTPS.",
+  "permissions": [
+    "webRequest",
+    "webRequestBlocking",
+    "<all_urls>"
+  ],
+  "background": {
+    "service_worker": "background.js"
+  },
+  "action": {
+    "default_icon": {
+      "16": "images/icon16.png",
+      "48": "images/icon48.png",
+      "128": "images/icon128.png"
+    },
+    "default_title": "Forçar HTTPS"
+  },
+  "icons": {
+    "16": "images/icon16.png",
+    "48": "images/icon48.png",
+    "128": "images/icon128.png"
+  }
+}
